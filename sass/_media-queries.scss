@@ -1,0 +1,55 @@
+@media screen and (max-width:750px){
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+        li{
+            padding: 5px;
+        }
+    }
+    button{
+        border-radius: 4px;
+        font-size: 6px;
+        padding: 2px;
+        span{
+            padding: 5px 10px;
+            border-radius: 3px;
+        }
+    }
+    .header{
+        font-size: 75%;
+        .logoo{
+            width: 50px;
+            height: 30px;
+        }
+    }
+    h1{
+        font-size: 2rem;
+    }
+    .contenido_principal1{
+        display: flex;
+        flex-direction: column;
+        .conte1{
+            margin-bottom: 10px ;
+            .fotos{
+                width: 325px;
+                height: 200px;
+            }
+        }
+        .conte_titulo{
+            display: flex;
+            flex-direction: column;
+            font-size: 70% ;
+            justify-content: none;
+            .titu2{
+                margin-top: 50px;
+                text-align: center;
+                font-size: 0.7rem;
+                margin-bottom: 20px;
+            }
+        }
+    }
+    main{
+        background-image: url(../img/pared_vuelta.png);
+        background-size: cover;
+    }
+}

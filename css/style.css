@@ -1,0 +1,212 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #b99d9d;
+  color: #ffffff;
+  background-image: url(../img/marmolDEF.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+main {
+  background-image: url(../img/—Pngtree—black\ gold\ mandala\ print\ background_1322528.png);
+  background-size: cover;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.header .logoo {
+  margin: 7px;
+  width: 120px;
+  height: 90px;
+  border-radius: 16px;
+}
+
+ul {
+  margin: 7px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+}
+ul li {
+  padding: 20px;
+}
+ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+ul li a:hover {
+  color: rgb(5, 13, 244);
+}
+
+button {
+  border: 0;
+  background-image: linear-gradient(150deg, #9599ff, #09f, #00DDFF);
+  border-radius: 8px;
+  color: #fff;
+  display: flex;
+  font-size: 18px;
+  padding: 4px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+button span {
+  background-color: #111;
+  padding: 16px 24px;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+button span:hover {
+  background: none;
+}
+button:active {
+  transform: scale(0.9);
+}
+
+h1 {
+  text-align: center;
+}
+
+.contenido_principal1 {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+.contenido_principal1 .conte1 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  align-items: center;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  transition: all 400ms ease;
+  margin-bottom: 100px;
+}
+.contenido_principal1 .conte1 figure {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.contenido_principal1 .conte1 figure img {
+  transition: all 500ms ease-out;
+}
+.contenido_principal1 .conte1 figure .capa {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(14, 21, 22, 0.5);
+  transition: all 500ms ease-out;
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+}
+.contenido_principal1 .conte1 figure .capa h3 {
+  color: #fff;
+  transition: all 500ms ease-out;
+  margin-bottom: 120px;
+  margin-top: 30px;
+}
+.contenido_principal1 .conte1 figure .capa p {
+  color: #fff;
+  font-size: 15px;
+  line-height: 1.5;
+  max-width: 220px;
+  margin: auto;
+}
+.contenido_principal1 .conte1 figure:hover > .capa {
+  opacity: 1;
+  visibility: visible;
+}
+.contenido_principal1 .conte1 figure:hover > .capa h3 {
+  margin-top: 70px;
+  margin-bottom: 15px;
+}
+.contenido_principal1 .conte1 .fotos {
+  width: 670px;
+  height: 350px;
+  border-radius: 10px;
+}
+.contenido_principal1 .conte_titulo {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 13px;
+}
+.contenido_principal1 .conte_titulo .titu2 {
+  font-size: 2.5rem;
+  margin-bottom: 150px;
+}
+.contenido_principal1 .reserva {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 750px) {
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  ul li {
+    padding: 5px;
+  }
+  button {
+    border-radius: 4px;
+    font-size: 6px;
+    padding: 2px;
+  }
+  button span {
+    padding: 5px 10px;
+    border-radius: 3px;
+  }
+  .header {
+    font-size: 75%;
+  }
+  .header .logoo {
+    width: 50px;
+    height: 30px;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  .contenido_principal1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .contenido_principal1 .conte1 {
+    margin-bottom: 10px;
+  }
+  .contenido_principal1 .conte1 .fotos {
+    width: 325px;
+    height: 200px;
+  }
+  .contenido_principal1 .conte_titulo {
+    display: flex;
+    flex-direction: column;
+    font-size: 70%;
+    justify-content: none;
+  }
+  .contenido_principal1 .conte_titulo .titu2 {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 0.7rem;
+    margin-bottom: 20px;
+  }
+  main {
+    background-image: url(../img/pared_vuelta.png);
+    background-size: cover;
+  }
+}/*# sourceMappingURL=style.css.map */
