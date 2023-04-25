@@ -1,8 +1,8 @@
-@charset "UTF-8";
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -18,7 +18,7 @@ h1 {
 }
 
 main {
-  background-image: url(../img/—Pngtree—black\ gold\ mandala\ print\ background_1322528.png);
+  background-image: url(../img/hori.png);
   background-size: cover;
 }
 
@@ -115,7 +115,7 @@ h1 {
   visibility: hidden;
   text-align: center;
 }
-.contenido_principal1 .conte1 figure .capa h3 {
+.contenido_principal1 .conte1 figure .capa .h2 {
   color: #fff;
   transition: all 500ms ease-out;
   margin-bottom: 120px;
@@ -153,6 +153,55 @@ h1 {
 .contenido_principal1 .reserva {
   display: flex;
   justify-content: center;
+}
+
+.boton-1 {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+.boton-1 .carac-bt {
+  margin-left: 40px;
+  text-decoration: none;
+  background-color: #e1ad12;
+  color: rgb(15, 15, 15);
+  padding: 10px 20px;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+.boton-1 .carac-bt:hover {
+  background-color: #ffc000;
+  color: black;
+  box-shadow: 0 0 5px #ffc000, 0 0 5px #ffc000, 0 0 5px #ffc000, 0 0 5px #ffc000;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+footer .icono1 {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+footer .icono1:hover {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+footer .icono2 {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+footer .icono2:hover {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+footer .icono3 {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+footer .icono3:hover {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 @media screen and (max-width: 750px) {
@@ -198,9 +247,10 @@ h1 {
     flex-direction: column;
     font-size: 70%;
     justify-content: none;
+    background: linear-gradient(rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.63));
   }
   .contenido_principal1 .conte_titulo .titu2 {
-    margin-top: 50px;
+    margin-top: 20px;
     text-align: center;
     font-size: 0.7rem;
     margin-bottom: 20px;
@@ -208,5 +258,14 @@ h1 {
   main {
     background-image: url(../img/pared_vuelta.png);
     background-size: cover;
+  }
+  .boton-1 {
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    justify-content: space-around;
+  }
+  .boton-1 .carac-bt {
+    margin-left: 0px;
   }
 }/*# sourceMappingURL=style.css.map */

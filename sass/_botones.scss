@@ -1,0 +1,20 @@
+.boton-1{
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+    .carac-bt{
+        margin-left: 40px;
+        text-decoration: none;
+        background-color:#e1ad12 ;
+        color: rgb(15, 15, 15);
+        padding: 10px 20px;
+        border-radius: 20px;
+        transition: all .3s ease;
+        &:hover{
+            background-color: #ffc000;
+            color: black;
+            box-shadow: 
+            0 0 5px #ffc000,0 0 5px #ffc000,0 0 5px #ffc000,0 0 5px #ffc000;
+        }
+    }
+}

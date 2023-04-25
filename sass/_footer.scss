@@ -1,0 +1,29 @@
+footer{
+    display: flex;
+    justify-content: center;
+    
+    .icono1{
+        margin-left: 20px;
+        margin-right: 20px;
+        &:hover{
+            padding-left: 1rem;
+    padding-right: 1rem;
+        }
+    }
+    .icono2{
+        margin-left: 20px;
+        margin-right: 20px;
+        &:hover{
+            padding-left: 1rem;
+    padding-right: 1rem;
+        }
+    }
+    .icono3{
+        margin-left: 20px;
+        margin-right: 20px;
+        &:hover{
+            padding-left: 1rem;
+    padding-right: 1rem;
+        }
+    }
+}

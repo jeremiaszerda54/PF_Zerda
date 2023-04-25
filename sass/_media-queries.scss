@@ -40,8 +40,9 @@
             flex-direction: column;
             font-size: 70% ;
             justify-content: none;
+            background: linear-gradient(rgba(0, 0, 0, 0.24),rgba(0, 0, 0, 0.63));
             .titu2{
-                margin-top: 50px;
+                margin-top: 20px;
                 text-align: center;
                 font-size: 0.7rem;
                 margin-bottom: 20px;
@@ -51,5 +52,15 @@
     main{
         background-image: url(../img/pared_vuelta.png);
         background-size: cover;
+    }
+    .boton-1{
+        align-items: center;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        justify-content: space-around;
+        .carac-bt{
+            
+            margin-left: 0px;
+        }
     }
 }
