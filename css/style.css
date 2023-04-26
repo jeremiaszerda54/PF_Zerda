@@ -8,18 +8,13 @@
 body {
   background-color: #b99d9d;
   color: #ffffff;
-  background-image: url(../img/marmolDEF.jpg);
+  background-image: url(../img/pexels-valeria-boltneva-1484516\ \(1\).jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 h1 {
   font-size: 4rem;
-}
-
-main {
-  background-image: url(../img/hori.png);
-  background-size: cover;
 }
 
 .header {
@@ -151,6 +146,7 @@ h1 {
 .contenido_principal1 .conte_titulo .titu2 {
   font-size: 2.5rem;
   margin-bottom: 150px;
+  text-align: center;
 }
 .contenido_principal1 .reserva {
   display: flex;
@@ -177,10 +173,41 @@ h1 {
   box-shadow: 0 0 5px #ffc000, 0 0 5px #ffc000, 0 0 5px #ffc000, 0 0 5px #ffc000;
 }
 
+.titulos {
+  color: rgb(255, 255, 255);
+}
+.titulos:hover {
+  transform: skew(5deg, 5deg);
+}
+
+main .margin {
+  margin-top: 40px;
+}
+main .margin .modo {
+  margin: 30px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #fff;
+  border-radius: 6px;
+  cursor: default;
+  color: black;
+}
+main .margin .modo .menumodo {
+  line-height: 20px;
+}
+main .margin .modo .menumodo .elemento {
+  transition: all 400ms ease;
+}
+main .margin .modo .menumodo .elemento:hover {
+  transform: translatey(5%);
+  background-color: rgba(80, 99, 185, 0.7450980392);
+  border: 8px;
+}
+
 footer {
   display: flex;
   justify-content: space-around;
-  background: linear-gradient(rgba(65, 62, 62, 0.596), black);
+  background: linear-gradient(rgba(65, 62, 62, 0.589), black);
 }
 footer div {
   color: black;
@@ -192,7 +219,6 @@ footer div {
 footer div p {
   margin-top: 10px;
   text-align: center;
-  line-height: 6px;
 }
 footer div .RESTAURANTS {
   font-size: 1.2rem;
@@ -253,10 +279,6 @@ footer div:hover {
     font-size: 0.7rem;
     margin-bottom: 20px;
   }
-  main {
-    background-image: url(../img/pared_vuelta.png);
-    background-size: cover;
-  }
   .boton-1 {
     align-items: center;
     margin-top: 15px;
@@ -269,8 +291,13 @@ footer div:hover {
   /*Footer*/
   footer div P {
     font-size: 10px;
+    line-height: 10px;
   }
   footer div .RESTAURANTS {
     font-size: 0.7rem;
+  }
+  /*MENU*/
+  h2 {
+    text-align: center;
   }
 }/*# sourceMappingURL=style.css.map */

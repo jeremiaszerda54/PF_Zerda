@@ -1,0 +1,36 @@
+
+.titulos{
+    color: rgb(255, 255, 255);
+    &:hover{
+        transform: skew(5deg, 5deg);
+    }
+}
+main{
+    .margin{
+    margin-top: 40px;
+    .titulos{
+        
+    }
+    .modo{
+    margin: 30px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    border-radius: 6px;
+    cursor: default;
+    color: black;
+    .menumodo{
+        line-height: 20px;
+        .elemento{
+            transition: all 400ms ease;
+            &:hover{
+            transform: translatey(5%);
+            background-color: #5063b9be;
+            border: 8px;
+            }
+        }
+    }
+}
+}
+}
+

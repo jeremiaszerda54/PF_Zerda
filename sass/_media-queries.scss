@@ -49,10 +49,6 @@
             }
         }
     }
-    main{
-        background-image: url(../img/pared_vuelta.png);
-        background-size: cover;
-    }
     .boton-1{
         align-items: center;
         margin-top: 15px;
@@ -68,11 +64,16 @@
         div{
             P{
                 font-size: 10px;
+                line-height: 10px;
             }
             .RESTAURANTS{
                 font-size: 0.7rem;
             }
         }
         
+    }
+    /*MENU*/
+    h2{
+        text-align: center;
     }
 }
