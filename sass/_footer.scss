@@ -1,29 +1,25 @@
 footer{
     display: flex;
-    justify-content: center;
-    
-    .icono1{
-        margin-left: 20px;
-        margin-right: 20px;
-        &:hover{
-            padding-left: 1rem;
-    padding-right: 1rem;
+    justify-content: space-around;
+    background:linear-gradient(rgba(65, 62, 62, 0.596), black) ;
+    div{
+        p{
+            margin-top: 10px;
+            text-align: center;
+            line-height: 6px;
         }
-    }
-    .icono2{
-        margin-left: 20px;
-        margin-right: 20px;
-        &:hover{
-            padding-left: 1rem;
-    padding-right: 1rem;
+        .RESTAURANTS{
+            font-size: 1.2rem;
         }
-    }
-    .icono3{
-        margin-left: 20px;
-        margin-right: 20px;
+        color: black;
+        background: #ffffff3d;
+        border-radius: 10px;
+        box-shadow: 0px 1px 10px rgba(155, 143, 143, 0.2);
+        transition: all 400ms ease;
         &:hover{
-            padding-left: 1rem;
-    padding-right: 1rem;
+            box-shadow: 5px 5px 20px rgba(247, 239, 239, 0.6);
+            transform: translatey(-5%);
+            
         }
     }
 }

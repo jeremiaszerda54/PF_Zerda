@@ -62,8 +62,12 @@ h1{
         }
         }
     .conte_titulo{
+        div{
+            p{
+                text-align: center;
+            }
+        }
         margin-top: 40px;
-        text-align: center;
         font-size: 13px;
         .titu2{
             font-size: 2.5rem;

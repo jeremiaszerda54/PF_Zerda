@@ -143,8 +143,10 @@ h1 {
 }
 .contenido_principal1 .conte_titulo {
   margin-top: 40px;
-  text-align: center;
   font-size: 13px;
+}
+.contenido_principal1 .conte_titulo div p {
+  text-align: center;
 }
 .contenido_principal1 .conte_titulo .titu2 {
   font-size: 2.5rem;
@@ -177,31 +179,27 @@ h1 {
 
 footer {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  background: linear-gradient(rgba(65, 62, 62, 0.596), black);
 }
-footer .icono1 {
-  margin-left: 20px;
-  margin-right: 20px;
+footer div {
+  color: black;
+  background: rgba(255, 255, 255, 0.2392156863);
+  border-radius: 10px;
+  box-shadow: 0px 1px 10px rgba(155, 143, 143, 0.2);
+  transition: all 400ms ease;
 }
-footer .icono1:hover {
-  padding-left: 1rem;
-  padding-right: 1rem;
+footer div p {
+  margin-top: 10px;
+  text-align: center;
+  line-height: 6px;
 }
-footer .icono2 {
-  margin-left: 20px;
-  margin-right: 20px;
+footer div .RESTAURANTS {
+  font-size: 1.2rem;
 }
-footer .icono2:hover {
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-footer .icono3 {
-  margin-left: 20px;
-  margin-right: 20px;
-}
-footer .icono3:hover {
-  padding-left: 1rem;
-  padding-right: 1rem;
+footer div:hover {
+  box-shadow: 5px 5px 20px rgba(247, 239, 239, 0.6);
+  transform: translatey(-5%);
 }
 
 @media screen and (max-width: 750px) {
@@ -267,5 +265,12 @@ footer .icono3:hover {
   }
   .boton-1 .carac-bt {
     margin-left: 0px;
+  }
+  /*Footer*/
+  footer div P {
+    font-size: 10px;
+  }
+  footer div .RESTAURANTS {
+    font-size: 0.7rem;
   }
 }/*# sourceMappingURL=style.css.map */
