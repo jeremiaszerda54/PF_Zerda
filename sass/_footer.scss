@@ -1,5 +1,8 @@
 footer{
     display: flex;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
     justify-content: space-around;
     background:linear-gradient(rgba(65, 62, 62, 0.589), black) ;
     div{

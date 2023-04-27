@@ -7,6 +7,8 @@
 
 body {
   background-color: #b99d9d;
+  position: relative;
+  padding-bottom: 10rem;
   color: #ffffff;
   background-image: url(../img/pexels-valeria-boltneva-1484516\ \(1\).jpg);
   background-repeat: no-repeat;
@@ -264,6 +266,45 @@ h1 {
   display: flex;
 }
 
+.nosotros {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+}
+.nosotros .tarjetas {
+  display: flex;
+  max-width: 1100px;
+}
+.nosotros .tarjetas .card {
+  margin: 20px;
+  border-radius: 6px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  transition: all 400ms ease;
+}
+.nosotros .tarjetas .card:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.6);
+  transform: translatey(-5%);
+}
+.nosotros .tarjetas .card .contenido1 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px;
+  text-align: center;
+}
+.nosotros .tarjetas .card .contenido1 p {
+  line-height: 2;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
 .boton-1 {
   display: flex;
   margin-top: 40px;
@@ -286,6 +327,9 @@ h1 {
 
 footer {
   display: flex;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
   justify-content: space-around;
   background: linear-gradient(rgba(65, 62, 62, 0.589), black);
 }
@@ -317,7 +361,7 @@ footer div:hover {
     background-size: cover;
   }
   .main2 {
-    background-image: url(../img/pared.webp);
+    background-image: url(../img/media.jpg);
   }
   ul {
     display: flex;
