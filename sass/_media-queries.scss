@@ -1,4 +1,14 @@
 @media screen and (max-width:750px){
+    body{
+        width: 100%;
+    }
+    .main{
+        background-image: url(../img/pared_vuelta.png);
+        background-size: cover;
+    }
+    .main2{
+        background-image: url(../img/pared.webp);
+    }
     ul{
         display: flex;
         flex-wrap: wrap;
@@ -75,5 +85,10 @@
     /*MENU*/
     h2{
         text-align: center;
+    }
+    .modoft{
+        img{
+            padding-left: 60px;
+        }
     }
 }

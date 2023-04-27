@@ -28,6 +28,48 @@ h1 {
   height: 90px;
   border-radius: 16px;
 }
+.header ul {
+  margin: 7px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+}
+.header ul li {
+  padding: 20px;
+}
+.header ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+.header ul li a:hover {
+  color: rgb(5, 13, 244);
+}
+.header button {
+  border: 0;
+  background-image: linear-gradient(150deg, #9599ff, #09f, #00DDFF);
+  border-radius: 8px;
+  color: #fff;
+  display: flex;
+  font-size: 18px;
+  padding: 4px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.header button span {
+  font-size: 15px;
+  background-color: #111;
+  padding: 16px 24px;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+.header button span:hover {
+  background: none;
+}
+.header button:active {
+  transform: scale(0.9);
+}
 
 ul {
   margin: 7px;
@@ -60,6 +102,7 @@ button {
   transition: 0.3s;
 }
 button span {
+  font-size: 15px;
   background-color: #111;
   padding: 16px 24px;
   border-radius: 6px;
@@ -153,6 +196,74 @@ h1 {
   justify-content: center;
 }
 
+.margin {
+  margin-top: 40px;
+}
+.margin .modoft {
+  display: flex;
+  align-items: center;
+}
+.margin .modoft img {
+  border-radius: 14px;
+}
+.margin .titulos {
+  color: #fff;
+}
+.margin .modo {
+  margin: 10px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #fff;
+  border-radius: 6px;
+  cursor: default;
+}
+.margin .modo .menumodo {
+  line-height: 20px;
+}
+.margin .bajo {
+  margin-bottom: 50px;
+}
+
+.titulos {
+  color: rgb(255, 255, 255);
+}
+.titulos:hover {
+  transform: skew(5deg, 5deg);
+}
+
+.modoft1 {
+  margin-top: 0;
+}
+
+.modo {
+  margin: 30px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #fff;
+  border-radius: 6px;
+  cursor: default;
+  color: black;
+}
+.modo .menumodo {
+  line-height: 20px;
+}
+.modo .menumodo .elemento {
+  transition: all 400ms ease;
+}
+.modo .menumodo .elemento:hover {
+  transform: translatey(5%);
+  background-color: rgba(80, 99, 185, 0.7450980392);
+  border: 8px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+}
+.flex .flex2 {
+  display: flex;
+}
+
 .boton-1 {
   display: flex;
   margin-top: 40px;
@@ -171,37 +282,6 @@ h1 {
   background-color: #ffc000;
   color: black;
   box-shadow: 0 0 5px #ffc000, 0 0 5px #ffc000, 0 0 5px #ffc000, 0 0 5px #ffc000;
-}
-
-.titulos {
-  color: rgb(255, 255, 255);
-}
-.titulos:hover {
-  transform: skew(5deg, 5deg);
-}
-
-main .margin {
-  margin-top: 40px;
-}
-main .margin .modo {
-  margin: 30px;
-  display: flex;
-  justify-content: space-around;
-  background-color: #fff;
-  border-radius: 6px;
-  cursor: default;
-  color: black;
-}
-main .margin .modo .menumodo {
-  line-height: 20px;
-}
-main .margin .modo .menumodo .elemento {
-  transition: all 400ms ease;
-}
-main .margin .modo .menumodo .elemento:hover {
-  transform: translatey(5%);
-  background-color: rgba(80, 99, 185, 0.7450980392);
-  border: 8px;
 }
 
 footer {
@@ -229,6 +309,16 @@ footer div:hover {
 }
 
 @media screen and (max-width: 750px) {
+  body {
+    width: 100%;
+  }
+  .main {
+    background-image: url(../img/pared_vuelta.png);
+    background-size: cover;
+  }
+  .main2 {
+    background-image: url(../img/pared.webp);
+  }
   ul {
     display: flex;
     flex-wrap: wrap;
@@ -299,5 +389,8 @@ footer div:hover {
   /*MENU*/
   h2 {
     text-align: center;
+  }
+  .modoft img {
+    padding-left: 60px;
   }
 }/*# sourceMappingURL=style.css.map */

@@ -1,15 +1,38 @@
-
+.margin{
+    margin-top: 40px;
+    .modoft{
+        display: flex;
+        align-items: center;
+        img{
+            border-radius: 14px;
+        }
+    }
+    .titulos{
+        color: #fff;
+    }
+    .modo{
+        margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    border-radius: 6px;
+    cursor: default;
+    .menumodo{
+        line-height: 20px;
+    }
+    }
+    .bajo{
+        margin-bottom: 50px;
+    }
+}
 .titulos{
     color: rgb(255, 255, 255);
     &:hover{
         transform: skew(5deg, 5deg);
     }
 }
-main{
-    .margin{
-    margin-top: 40px;
-    .titulos{
-        
+    .modoft1{
+        margin-top: 0;
     }
     .modo{
     margin: 30px;
@@ -30,7 +53,13 @@ main{
             }
         }
     }
-}
-}
-}
+    }
+    .flex{
+        display: flex;
+        justify-content: space-around;
+        .flex2{
+            display: flex;
+        }
+    }
+
 
