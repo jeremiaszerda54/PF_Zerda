@@ -42,18 +42,25 @@
     border-radius: 6px;
     cursor: default;
     color: black;
-    .menumodo{
-        line-height: 20px;
-        .elemento{
-            transition: all 400ms ease;
-            &:hover{
-            transform: translatey(5%);
-            background-color: #5063b9be;
-            border: 8px;
+    /*boocle*/
+        @for $i from 1 through 5{
+            .menumodo{
+                line-height: 20px;
+                &:nth-child(#{$i}){
+                    p{
+                        transition: all 400ms ease;
+                    &:hover{
+                    transform: translatey(5%);
+                    background-color: #5063b9be;
+                    border: 8px;
+                    }
+                    }
+                    
+                }
             }
         }
     }
-    }
+    
     .flex{
         display: flex;
         justify-content: space-around;

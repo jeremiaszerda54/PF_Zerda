@@ -1,7 +1,6 @@
 .boton-1{
-    display: flex;
+    @include flex-center;
     margin-top: 40px;
-    justify-content: center;
     .carac-bt{
         margin-left: 40px;
         text-decoration: none;

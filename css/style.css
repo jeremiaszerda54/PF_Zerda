@@ -20,8 +20,9 @@ h1 {
 
 .header {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
+  background-color: #0A4D68;
+  flex-wrap: wrap;
 }
 .header .logoo {
   margin: 7px;
@@ -191,10 +192,6 @@ h1 {
   margin-bottom: 150px;
   text-align: center;
 }
-.contenido_principal1 .reserva {
-  display: flex;
-  justify-content: center;
-}
 
 .margin {
   margin-top: 40px;
@@ -243,14 +240,59 @@ h1 {
   border-radius: 6px;
   cursor: default;
   color: black;
+  /*boocle*/
 }
 .modo .menumodo {
   line-height: 20px;
 }
-.modo .menumodo .elemento {
+.modo .menumodo:nth-child(1) p {
   transition: all 400ms ease;
 }
-.modo .menumodo .elemento:hover {
+.modo .menumodo:nth-child(1) p:hover {
+  transform: translatey(5%);
+  background-color: rgba(80, 99, 185, 0.7450980392);
+  border: 8px;
+}
+.modo .menumodo {
+  line-height: 20px;
+}
+.modo .menumodo:nth-child(2) p {
+  transition: all 400ms ease;
+}
+.modo .menumodo:nth-child(2) p:hover {
+  transform: translatey(5%);
+  background-color: rgba(80, 99, 185, 0.7450980392);
+  border: 8px;
+}
+.modo .menumodo {
+  line-height: 20px;
+}
+.modo .menumodo:nth-child(3) p {
+  transition: all 400ms ease;
+}
+.modo .menumodo:nth-child(3) p:hover {
+  transform: translatey(5%);
+  background-color: rgba(80, 99, 185, 0.7450980392);
+  border: 8px;
+}
+.modo .menumodo {
+  line-height: 20px;
+}
+.modo .menumodo:nth-child(4) p {
+  transition: all 400ms ease;
+}
+.modo .menumodo:nth-child(4) p:hover {
+  transform: translatey(5%);
+  background-color: rgba(80, 99, 185, 0.7450980392);
+  border: 8px;
+}
+.modo .menumodo {
+  line-height: 20px;
+}
+.modo .menumodo:nth-child(5) p {
+  transition: all 400ms ease;
+}
+.modo .menumodo:nth-child(5) p:hover {
   transform: translatey(5%);
   background-color: rgba(80, 99, 185, 0.7450980392);
   border: 8px;
@@ -323,24 +365,75 @@ h3 {
   height: 170px;
   border-radius: 10px;
 }
-.compra .conteflex .caracproducto, .compra .conteflex .caracproducto--masmenos {
+.compra .conteflex .caracproducto {
   display: flex;
   flex-direction: column;
 }
-.compra .conteflex .caracproducto--masmenos {
-  margin: 30%;
-  display: flex;
-  flex-direction: row;
-}
 
-p {
-  margin: 2;
+.ini {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.ini .form {
+  width: 400px;
+  height: 340px;
+  background-color: #4e4d4d;
+  margin: auto;
+  margin-top: 80px;
+  margin-bottom: 300px;
+  box-shadow: 7px 13px 37px #000;
+  padding: 20px 30px;
+  border-top: 4px solid #017bab;
+  color: white;
+}
+.ini .form a {
+  color: white;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+.ini .form a:hover {
+  text-decoration: underline;
+}
+.ini .form p {
+  height: 40px;
+  text-align: center;
+  border-bottom: 1px solid;
+}
+.ini .form .h1 {
+  margin: 0;
+  text-align: center;
+  height: 40px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid;
+  font-size: 20px;
+}
+.ini .form .control {
+  width: 100%;
+  border: 1px solid #017bab;
+  margin-bottom: 15px;
+  padding: 11px 10px;
+  background: #252323;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 6px;
+}
+.ini .form .button {
+  width: 100%;
+  height: 40px;
+  background: #017bab;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  margin-bottom: 16px;
 }
 
 .boton-1 {
   display: flex;
-  margin-top: 40px;
   justify-content: center;
+  margin-top: 40px;
 }
 .boton-1 .carac-bt {
   margin-left: 40px;
@@ -480,4 +573,5 @@ footer div:hover {
     height: 100px;
     border-radius: 10px;
   }
+  /*inicio sesion*/
 }/*# sourceMappingURL=style.css.map */
