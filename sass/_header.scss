@@ -11,8 +11,9 @@
     ul{
     margin: 7px;
     display: flex;
+    padding: 0;
     flex-wrap: wrap;
-    justify-content: space-around;
+
     align-items: center;
     list-style-type: none;
     li{
