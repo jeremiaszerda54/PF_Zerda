@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   padding: 0;
   margin: 0;
@@ -156,8 +157,8 @@ h1 {
 .contenido_principal1 .conte1 figure .capa .h2 {
   color: #fff;
   transition: all 500ms ease-out;
-  margin-bottom: 120px;
-  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-top: 10px;
 }
 .contenido_principal1 .conte1 figure .capa p {
   color: #fff;
@@ -181,7 +182,6 @@ h1 {
 }
 .contenido_principal1 .conte_titulo {
   margin-top: 40px;
-  font-size: 13px;
 }
 .contenido_principal1 .conte_titulo div p {
   text-align: center;
@@ -333,6 +333,10 @@ h3 {
   flex-direction: row;
 }
 
+p {
+  margin: 2;
+}
+
 .boton-1 {
   display: flex;
   margin-top: 40px;
@@ -378,13 +382,6 @@ footer div:hover {
 }
 
 /*footer paginas chicas*/
-.footer {
-  position: absolute;
-  text-align: center;
-  bottom: 0;
-  width: 100%;
-}
-
 @media screen and (max-width: 750px) {
   body {
     width: 100%;
@@ -437,7 +434,6 @@ footer div:hover {
   .contenido_principal1 .conte_titulo {
     display: flex;
     flex-direction: column;
-    font-size: 70%;
     justify-content: none;
     background: linear-gradient(rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.63));
   }
@@ -446,6 +442,9 @@ footer div:hover {
     text-align: center;
     font-size: 0.7rem;
     margin-bottom: 20px;
+  }
+  .contenido_principal1 .conte_titulo .titu2 .tamaño p {
+    font-size: 10px;
   }
   .boton-1 {
     align-items: center;
@@ -475,13 +474,6 @@ footer div:hover {
   .compra {
     margin-top: 0px;
     flex-direction: column;
-  }
-  /*footer paginas chicas*/
-  .footer {
-    position: absolute;
-    text-align: center;
-    bottom: 0;
-    width: 100%;
   }
   .compra .conteflex .imgcomi {
     width: 150px;
