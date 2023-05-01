@@ -568,10 +568,12 @@ footer div:hover {
     margin-top: 0px;
     flex-direction: column;
   }
+  .compra .conteflex {
+    border: 1px solid;
+  }
   .compra .conteflex .imgcomi {
     width: 150px;
     height: 100px;
     border-radius: 10px;
   }
-  /*inicio sesion*/
 }/*# sourceMappingURL=style.css.map */
