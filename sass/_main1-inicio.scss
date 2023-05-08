@@ -112,6 +112,8 @@ h1{
     justify-content: center;
     margin-top: 80px;
     margin:80px 50px 50px 50px ;
+    align-items: center;
+    text-align: center;
     background-color: rgba(250, 235, 215, 0.692);
     .antesft{
         margin-right: 100px;
@@ -122,6 +124,10 @@ h1{
 .ahora{
         @extend .antes;
         .despuesft{
-            
+            margin-left: 100px;
+            border-radius: 10px;
         }
     }
+.history{
+    margin-top: 50px;
+}
