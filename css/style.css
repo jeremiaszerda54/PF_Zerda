@@ -8,10 +8,8 @@
 
 body {
   background-color: #b99d9d;
-  color: #ffffff;
-  background-image: url(../img/pexels-valeria-boltneva-1484516\ \(1\).jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  color: black;
+  background-color: #ffffff;
 }
 
 h1 {
@@ -21,8 +19,9 @@ h1 {
 .header {
   display: flex;
   justify-content: center;
-  background-color: #0A4D68;
+  background: linear-gradient(black, rgb(255, 255, 255));
   flex-wrap: wrap;
+  /*color azul lindo 0A4D68*/
 }
 .header .logoo {
   margin: 7px;
@@ -125,6 +124,7 @@ h1 {
   display: flex;
   justify-content: center;
   justify-content: space-around;
+  background: linear-gradient(white, rgba(83, 144, 160, 0.712), white);
 }
 .contenido_principal1 .conte1 {
   display: flex;
@@ -133,7 +133,7 @@ h1 {
   align-items: center;
   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
   transition: all 400ms ease;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 .contenido_principal1 .conte1 figure {
   position: relative;
@@ -191,6 +191,119 @@ h1 {
   font-size: 2.5rem;
   margin-bottom: 150px;
   text-align: center;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.contenidosegundo {
+  display: flex;
+  justify-content: center;
+  color: black;
+}
+.contenidosegundo:nth-child(1) div {
+  text-align: center;
+  margin-right: 50px;
+  margin-left: 50px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.contenidosegundo:nth-child(1) div h3 {
+  background-color: rgba(83, 144, 160, 0.712);
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.contenidosegundo {
+  display: flex;
+  justify-content: center;
+  color: black;
+}
+.contenidosegundo:nth-child(2) div {
+  text-align: center;
+  margin-right: 50px;
+  margin-left: 50px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.contenidosegundo:nth-child(2) div h3 {
+  background-color: rgba(83, 144, 160, 0.712);
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.contenidosegundo {
+  display: flex;
+  justify-content: center;
+  color: black;
+}
+.contenidosegundo:nth-child(3) div {
+  text-align: center;
+  margin-right: 50px;
+  margin-left: 50px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.contenidosegundo:nth-child(3) div h3 {
+  background-color: rgba(83, 144, 160, 0.712);
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.contenidosegundo {
+  display: flex;
+  justify-content: center;
+  color: black;
+}
+.contenidosegundo:nth-child(4) div {
+  text-align: center;
+  margin-right: 50px;
+  margin-left: 50px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.contenidosegundo:nth-child(4) div h3 {
+  background-color: rgba(83, 144, 160, 0.712);
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.contenidosegundo {
+  display: flex;
+  justify-content: center;
+  color: black;
+}
+.contenidosegundo:nth-child(5) div {
+  text-align: center;
+  margin-right: 50px;
+  margin-left: 50px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.contenidosegundo:nth-child(5) div h3 {
+  background-color: rgba(83, 144, 160, 0.712);
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.antes, .ahora {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 80px;
+  margin: 80px 50px 50px 50px;
+  background-color: rgba(250, 235, 215, 0.692);
+}
+.antes .antesft, .ahora .antesft {
+  margin-right: 100px;
+  border-radius: 10px;
 }
 
 .margin {

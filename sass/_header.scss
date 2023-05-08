@@ -1,6 +1,6 @@
 .header{
     @include flex-center;
-    background-color: #0A4D68;
+    background:linear-gradient(black, rgb(255, 255, 255)) ;
     flex-wrap: wrap;
     .logoo{
     margin:7px;
@@ -27,6 +27,7 @@
         }
     }
 }
+/*color azul lindo 0A4D68*/
 button{
     border: 0;
     background-image: linear-gradient(150deg, #9599ff, #09f,#00DDFF);
