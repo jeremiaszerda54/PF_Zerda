@@ -120,11 +120,14 @@ h1 {
   text-align: center;
 }
 
+.one {
+  background: linear-gradient(white, rgba(83, 144, 160, 0.712), white);
+}
+
 .contenido_principal1 {
   display: flex;
   justify-content: center;
   justify-content: space-around;
-  background: linear-gradient(white, rgba(83, 144, 160, 0.712), white);
 }
 .contenido_principal1 .conte1 {
   display: flex;
@@ -299,9 +302,15 @@ h2 {
   justify-content: center;
   margin-top: 80px;
   margin: 80px 50px 50px 50px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
   align-items: center;
   text-align: center;
+  color: #b97425;
   background-color: rgba(250, 235, 215, 0.692);
+}
+.antes div h3, .ahora div h3 {
+  color: black;
+  margin-bottom: 30px;
 }
 .antes .antesft, .ahora .antesft {
   margin-right: 100px;
@@ -577,11 +586,11 @@ h3 {
 footer {
   display: flex;
   justify-content: space-around;
-  background: linear-gradient(rgba(65, 62, 62, 0.589), black);
+  background: linear-gradient(rgba(255, 255, 255, 0.404), black);
 }
 footer div {
   color: black;
-  background: rgba(255, 255, 255, 0.2392156863);
+  background: rgba(172, 112, 22, 0.2392156863);
   border-radius: 10px;
   box-shadow: 0px 1px 10px rgba(155, 143, 143, 0.2);
   transition: all 400ms ease;
@@ -602,10 +611,6 @@ footer div:hover {
 @media screen and (max-width: 750px) {
   body {
     width: 100%;
-  }
-  .main {
-    background-image: url(../img/pared_vuelta.png);
-    background-size: cover;
   }
   .main2 {
     background-image: url(../img/media.jpg);
@@ -645,14 +650,13 @@ footer div:hover {
     margin-bottom: 10px;
   }
   .contenido_principal1 .conte1 .fotos {
-    width: 325px;
+    width: 320px;
     height: 200px;
   }
   .contenido_principal1 .conte_titulo {
     display: flex;
     flex-direction: column;
     justify-content: none;
-    background: linear-gradient(rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.63));
   }
   .contenido_principal1 .conte_titulo .titu2 {
     margin-top: 20px;
@@ -662,6 +666,40 @@ footer div:hover {
   }
   .contenido_principal1 .conte_titulo .titu2 .tamaño p {
     font-size: 10px;
+  }
+  h2 {
+    margin-top: 50px;
+  }
+  .contenidosegundo {
+    display: flex;
+    flex-direction: column;
+  }
+  .contenidosegundo div {
+    margin-bottom: 20px;
+  }
+  .contenidosegundo div .imgantesahora {
+    width: 150px;
+  }
+  .antes, .ahora {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  .antes .antesft, .ahora .antesft {
+    justify-content: center;
+    margin-right: 0px;
+    margin-bottom: 30px;
+    width: 222px;
+  }
+  .ahora {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .ahora .despuesft {
+    margin: 0;
+    width: 222px;
   }
   .boton-1 {
     align-items: center;
