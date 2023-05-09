@@ -1,72 +1,39 @@
-.margin{
-    margin-top: 40px;
-    .modoft{
+.titucomi{
+    text-align: center;
+    margin: 50px;
+}
+.entrad{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    .tarjetacomi{
+        background-color: #fff;
+        color: #000000;
         display: flex;
-        align-items: center;
+        flex-direction: column;
+        border-radius: 10px;
+        box-shadow: 0px 1px 10px rgba(155, 143, 143, 0.2);
         img{
-            border-radius: 14px;
+            border-radius: 10px;
         }
-    }
-    .titulos{
-        color: #fff;
-    }
-    .modo{
-        margin: 10px;
-    display: flex;
-    justify-content: space-around;
-    background-color: #fff;
-    border-radius: 6px;
-    cursor: default;
-    .menumodo{
-        line-height: 20px;
-    }
-    }
-    .bajo{
-        margin-bottom: 50px;
-    }
-}
-.titulos{
-    color: rgb(255, 255, 255);
-    &:hover{
-        transform: skew(5deg, 5deg);
-    }
-}
-    .modoft1{
-        margin-top: 0;
-    }
-    .modo{
-    margin: 30px;
-    display: flex;
-    justify-content: space-around;
-    background-color: #fff;
-    border-radius: 6px;
-    cursor: default;
-    color: black;
-    /*boocle*/
-        @for $i from 1 through 5{
-            .menumodo{
-                line-height: 20px;
-                &:nth-child(#{$i}){
-                    p{
-                        transition: all 400ms ease;
-                    &:hover{
-                    transform: translatey(5%);
-                    background-color: #5063b9be;
-                    border: 8px;
-                    }
-                    }
-                    
-                }
+        .nombre_precio{
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            p{
+                font-size: 15px
             }
         }
-    }
-    
-    .flex{
-        display: flex;
-        justify-content: space-around;
-        .flex2{
-            display: flex;
+        .precio_comprar{
+            @extend .nombre_precio;
         }
     }
-
+}
+.fin{
+    margin-bottom: 80px ;
+}
 
