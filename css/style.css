@@ -368,6 +368,17 @@ h2 {
   margin-bottom: 80px;
 }
 
+.botonbuy {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: rgb(0, 0, 0);
+  background: rgba(192, 110, 33, 0.815);
+  padding: 6px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
 .nosotros {
   width: 100%;
   display: flex;
@@ -651,8 +662,12 @@ footer div:hover {
   h2 {
     text-align: center;
   }
-  .modoft img {
-    padding-left: 60px;
+  .entrad .tarjetacomi {
+    margin-top: 33px;
+  }
+  .entrad .tarjetacomi .altoft {
+    height: 166px;
+    width: 250px;
   }
   /*carrito*/
   .compra {
@@ -666,12 +681,5 @@ footer div:hover {
     width: 150px;
     height: 100px;
     border-radius: 10px;
-  }
-  .entrad .tarjetacomi {
-    margin-top: 33px;
-  }
-  .entrad .tarjetacomi .altoft {
-    height: 166px;
-    width: 250px;
   }
 }/*# sourceMappingURL=style.css.map */
