@@ -326,6 +326,12 @@ h2 {
   margin-top: 50px;
 }
 
+.resaltador:hover {
+  background-color: rgba(199, 152, 51, 0.6705882353);
+  border-radius: 10px;
+  color: black;
+}
+
 .titucomi {
   text-align: center;
   margin: 50px;
@@ -418,69 +424,64 @@ h3 {
   margin-bottom: 15px;
 }
 
-.paris {
+.ini {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+.ini h1 {
+  color: rgb(0, 0, 0);
 }
 
-.ini {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
-}
-.ini .form {
+.forme {
   width: 400px;
-  height: 340px;
-  background-color: #4e4d4d;
-  margin: auto;
-  margin-top: 80px;
-  margin-bottom: 300px;
-  box-shadow: 7px 13px 37px #000;
-  padding: 20px 30px;
-  border-top: 4px solid #017bab;
+  background-color: #24303c;
+  border-radius: 10px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
+  padding: 30px;
+  box-shadow: 7px 10px 30px #000;
+  margin-top: 50px;
+  margin-bottom: 200px;
+}
+.forme h4 {
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+.forme .controles {
+  width: 100%;
+  background-color: #24303c;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 19px;
+  border: 1px solid #1f53c5;
+  font-size: 18px;
   color: white;
 }
-.ini .form a {
+.forme p {
+  height: 20px;
+  text-align: center;
+  font-size: 14px;
+  /*altura de separacion de los terminos*/
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+.forme a {
   color: white;
   text-decoration: none;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
 }
-.ini .form a:hover {
+.forme a:hover {
   text-decoration: underline;
 }
-.ini .form p {
-  height: 40px;
-  text-align: center;
-  border-bottom: 1px solid;
-}
-.ini .form .h1 {
-  margin: 0;
-  text-align: center;
-  height: 40px;
-  margin-bottom: 30px;
-  border-bottom: 1px solid;
-  font-size: 20px;
-}
-.ini .form .control {
+.forme .botoness {
   width: 100%;
-  border: 1px solid #017bab;
-  margin-bottom: 15px;
-  padding: 11px 10px;
-  background: #252323;
-  font-size: 14px;
-  font-weight: bold;
-  border-radius: 6px;
-}
-.ini .form .button {
-  width: 100%;
-  height: 40px;
-  background: #017bab;
+  background: #1f53c5;
   border: none;
+  padding: 13px;
   color: white;
-  border-radius: 6px;
-  margin-bottom: 16px;
+  margin: 16px 0;
+  font-size: 18px;
 }
 
 .boton-1 {
@@ -649,16 +650,18 @@ footer div:hover {
     height: 166px;
     width: 250px;
   }
-  .register {
-    justify-content: start;
-    flex-direction: column;
-    margin: 0;
-  }
-  .register .contrado img {
+  /*registro*/
+  .forme {
+    font-size: 10px;
     width: 300px;
+    padding: 10px;
   }
-  .register .registro {
-    margin-left: 0;
-    margin-right: 0;
+  .forme .cotroles {
+    width: auto;
+    padding: 5px;
+  }
+  .forme .boroness {
+    margin: 0;
+    margin-top: 80px;
   }
 }/*# sourceMappingURL=style.css.map */

@@ -1,59 +1,58 @@
 .ini{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-    .form{
-        width: 400px;
-        height: 340px;
-        background-color: #4e4d4d;
-        margin: auto;
-        margin-top: 80px;
-        margin-bottom: 300px;
-        box-shadow: 7px 13px 37px #000;
-        padding: 20px 30px;
-        border-top: 4px solid #017bab;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h1{
+        color: rgb(0, 0, 0);
+    }
+}
+.forme{
+    width: 400px;
+    background-color: #24303c;
+    border-radius: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    padding: 30px;
+    box-shadow: 7px 10px 30px #000;
+    margin-top: 50px;
+    margin-bottom: 200px;
+    h4{
+        text-align: center;
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    .controles{
+        width: 100%;
+        background-color: #24303c;
+        padding: 10px;
+        border-radius: 5px;
+        margin-bottom: 19px;
+        border: 1px solid #1f53c5;
+        font-size: 18px;
         color: white;
-        a{
-            color: white;
-            text-decoration: none;
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 14px;
-            &:hover{
-                text-decoration: underline;
-            }
+    }
+    p{
+        height: 20px;
+        text-align: center;
+        font-size: 14px;
+        /*altura de separacion de los terminos*/
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+    a{
+        color: white;
+        text-decoration: none;
+        &:hover{
+            text-decoration: underline;
         }
-        p{
-            height: 40px;
-            text-align: center;
-            border-bottom: 1px solid;
-        }
-        .h1{
-            margin: 0;
-            text-align: center;
-            height: 40px;
-            margin-bottom: 30px;
-            border-bottom: 1px solid;
-            font-size: 20px;
-        }
-        .control{
-            width: 100%;
-            border: 1px solid #017bab;
-            margin-bottom: 15px;
-            padding: 11px 10px;
-            background: #252323;
-            font-size: 14px;
-            font-weight: bold;
-            border-radius: 6px;
-        }
-        .button{
-            width: 100%;
-            height: 40px;
-            background: #017bab;
-            border: none;
-            color: white;
-            border-radius: 6px;
-            margin-bottom: 16px;
-        }
+    }
+    .botoness{
+        width: 100%;
+        background: #1f53c5;
+        border: none;
+        padding: 13px;
+        color: white;
+        margin: 16px 0;
+        font-size: 18px;
     }
 }

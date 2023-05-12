@@ -132,21 +132,18 @@
             }
         }
     }
-    .register{
-        justify-content: start;
-        flex-direction: column;
-        margin: 0;
-
-        .contrado{
-
-            img{
-                width: 300px;
-            }
+    /*registro*/
+    .forme{
+        font-size: 10px;
+        width: 300px;
+        padding: 10px;
+        .cotroles{
+            width: auto;
+            padding: 5px;
         }
-        .registro{
-            margin-left: 0;
-            margin-right: 0;
+        .boroness{
+            margin: 0;
+            margin-top: 80px;
         }
     }
-
 }

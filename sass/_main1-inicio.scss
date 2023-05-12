@@ -143,3 +143,10 @@ h1{
 .history{
     margin-top: 50px;
 }
+.resaltador{
+    &:hover{
+        background-color: #c79833ab;
+        border-radius: 10px;
+        color: black;
+    }
+}
